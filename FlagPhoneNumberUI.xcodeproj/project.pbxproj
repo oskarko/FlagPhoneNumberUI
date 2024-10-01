@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559743192CAC2E2F009B66DE /* FlagPhoneNumberUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559743182CAC2E2F009B66DE /* FlagPhoneNumberUIApp.swift */; };
+		5597431B2CAC2E2F009B66DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5597431A2CAC2E2F009B66DE /* ContentView.swift */; };
+		5597431D2CAC2E30009B66DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5597431C2CAC2E30009B66DE /* Assets.xcassets */; };
+		559743202CAC2E30009B66DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5597431F2CAC2E30009B66DE /* Preview Assets.xcassets */; };
+		559743272CAC2E48009B66DE /* InternationalPhoneTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559743262CAC2E48009B66DE /* InternationalPhoneTextField.swift */; };
+		559743292CAC2E63009B66DE /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559743282CAC2E63009B66DE /* Country.swift */; };
+		5597432B2CAC2EA1009B66DE /* CountrySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5597432A2CAC2EA1009B66DE /* CountrySelectionView.swift */; };
+		5597432D2CAC3043009B66DE /* countryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 5597432C2CAC3043009B66DE /* countryCodes.json */; };
+		559743352CAC3D6C009B66DE /* EmptyModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559743342CAC3D6C009B66DE /* EmptyModifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		559743152CAC2E2F009B66DE /* FlagPhoneNumberUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlagPhoneNumberUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		559743182CAC2E2F009B66DE /* FlagPhoneNumberUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagPhoneNumberUIApp.swift; sourceTree = "<group>"; };
+		5597431A2CAC2E2F009B66DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5597431C2CAC2E30009B66DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5597431F2CAC2E30009B66DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		559743262CAC2E48009B66DE /* InternationalPhoneTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternationalPhoneTextField.swift; sourceTree = "<group>"; };
+		559743282CAC2E63009B66DE /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		5597432A2CAC2EA1009B66DE /* CountrySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionView.swift; sourceTree = "<group>"; };
+		5597432C2CAC3043009B66DE /* countryCodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countryCodes.json; sourceTree = "<group>"; };
+		559743342CAC3D6C009B66DE /* EmptyModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyModifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559743122CAC2E2F009B66DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5597430C2CAC2E2F009B66DE = {
+			isa = PBXGroup;
+			children = (
+				559743172CAC2E2F009B66DE /* FlagPhoneNumberUI */,
+				559743162CAC2E2F009B66DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		559743162CAC2E2F009B66DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559743152CAC2E2F009B66DE /* FlagPhoneNumberUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559743172CAC2E2F009B66DE /* FlagPhoneNumberUI */ = {
+			isa = PBXGroup;
+			children = (
+				559743182CAC2E2F009B66DE /* FlagPhoneNumberUIApp.swift */,
+				559743392CAC5852009B66DE /* Models */,
+				559743382CAC5849009B66DE /* Commons */,
+				559743372CAC5770009B66DE /* UI */,
+				559743362CAC575D009B66DE /* Resources */,
+				5597431E2CAC2E30009B66DE /* Preview Content */,
+			);
+			path = FlagPhoneNumberUI;
+			sourceTree = "<group>";
+		};
+		5597431E2CAC2E30009B66DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5597431F2CAC2E30009B66DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		559743362CAC575D009B66DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5597432C2CAC3043009B66DE /* countryCodes.json */,
+				5597431C2CAC2E30009B66DE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		559743372CAC5770009B66DE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5597431A2CAC2E2F009B66DE /* ContentView.swift */,
+				559743262CAC2E48009B66DE /* InternationalPhoneTextField.swift */,
+				5597432A2CAC2EA1009B66DE /* CountrySelectionView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		559743382CAC5849009B66DE /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				559743342CAC3D6C009B66DE /* EmptyModifier.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		559743392CAC5852009B66DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				559743282CAC2E63009B66DE /* Country.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559743142CAC2E2F009B66DE /* FlagPhoneNumberUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559743232CAC2E30009B66DE /* Build configuration list for PBXNativeTarget "FlagPhoneNumberUI" */;
+			buildPhases = (
+				559743112CAC2E2F009B66DE /* Sources */,
+				559743122CAC2E2F009B66DE /* Frameworks */,
+				559743132CAC2E2F009B66DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlagPhoneNumberUI;
+			productName = FlagPhoneNumberUI;
+			productReference = 559743152CAC2E2F009B66DE /* FlagPhoneNumberUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5597430D2CAC2E2F009B66DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					559743142CAC2E2F009B66DE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 559743102CAC2E2F009B66DE /* Build configuration list for PBXProject "FlagPhoneNumberUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5597430C2CAC2E2F009B66DE;
+			productRefGroup = 559743162CAC2E2F009B66DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559743142CAC2E2F009B66DE /* FlagPhoneNumberUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559743132CAC2E2F009B66DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5597432D2CAC3043009B66DE /* countryCodes.json in Resources */,
+				559743202CAC2E30009B66DE /* Preview Assets.xcassets in Resources */,
+				5597431D2CAC2E30009B66DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559743112CAC2E2F009B66DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559743352CAC3D6C009B66DE /* EmptyModifier.swift in Sources */,
+				559743292CAC2E63009B66DE /* Country.swift in Sources */,
+				559743272CAC2E48009B66DE /* InternationalPhoneTextField.swift in Sources */,
+				5597431B2CAC2E2F009B66DE /* ContentView.swift in Sources */,
+				559743192CAC2E2F009B66DE /* FlagPhoneNumberUIApp.swift in Sources */,
+				5597432B2CAC2EA1009B66DE /* CountrySelectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		559743212CAC2E30009B66DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		559743222CAC2E30009B66DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559743242CAC2E30009B66DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlagPhoneNumberUI/Preview Content\"";
+				DEVELOPMENT_TEAM = HGXUQY5ZKR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscargarrucho.FlagPhoneNumberUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		559743252CAC2E30009B66DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlagPhoneNumberUI/Preview Content\"";
+				DEVELOPMENT_TEAM = HGXUQY5ZKR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscargarrucho.FlagPhoneNumberUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559743102CAC2E2F009B66DE /* Build configuration list for PBXProject "FlagPhoneNumberUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559743212CAC2E30009B66DE /* Debug */,
+				559743222CAC2E30009B66DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559743232CAC2E30009B66DE /* Build configuration list for PBXNativeTarget "FlagPhoneNumberUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559743242CAC2E30009B66DE /* Debug */,
+				559743252CAC2E30009B66DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5597430D2CAC2E2F009B66DE /* Project object */;
+}
